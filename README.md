@@ -2,7 +2,7 @@
 
 ### April 20, 2016
 
-Advanced project for core working dir
+For java only projects
 
 * git 
 * Java 7
