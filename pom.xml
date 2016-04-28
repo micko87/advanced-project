@@ -3,7 +3,7 @@
   <groupId>com.sqa.MA</groupId>
   <artifactId>java-project</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>advanced-project</name>
+  <name>java-project</name>
   <description> Java Project Structure for a basic Java project using Junit testing framework    </description>
    <dependencies>
   <dependency>
