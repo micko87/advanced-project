@@ -1,11 +1,12 @@
 ## Java-project
 
-### April 20, 2016
+### April 27, 2016
 
-For java only projects
+A Structure for Maven Java Porject with include
 
-* git 
+* Git 
 * Java 7
 * Maven
+* Junit
 
 [Mikias Ayalew](http://sqasolution.com)
