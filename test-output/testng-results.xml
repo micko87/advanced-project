@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6290" started-at="2016-05-01T00:39:04Z" finished-at="2016-05-01T00:39:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6290" started-at="2016-05-01T00:39:04Z" finished-at="2016-05-01T00:39:10Z">
+      <class name="com.sqa.MA.Gmailtest.BasicAutoTest">
+        <test-method status="PASS" signature="setupFirefox()[pri:0, instance:com.sqa.MA.Gmailtest.BasicAutoTest@131a72fd]" name="setupFirefox" is-config="true" duration-ms="5344" started-at="2016-04-30T17:39:04Z" finished-at="2016-04-30T17:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupFirefox -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.sqa.MA.Gmailtest.BasicAutoTest@131a72fd]" name="test" duration-ms="320" started-at="2016-04-30T17:39:09Z" data-provider="UserAccountInfo" finished-at="2016-04-30T17:39:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mikiastest1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gunittest1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.sqa.MA.Gmailtest.BasicAutoTest@131a72fd]" name="test" duration-ms="307" started-at="2016-04-30T17:39:10Z" data-provider="UserAccountInfo" finished-at="2016-04-30T17:39:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mikiastest2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gunittest2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.sqa.MA.Gmailtest.BasicAutoTest@131a72fd]" name="test" duration-ms="289" started-at="2016-04-30T17:39:10Z" data-provider="UserAccountInfo" finished-at="2016-04-30T17:39:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mikiastest3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gunittest3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.sqa.MA.Gmailtest.BasicAutoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
