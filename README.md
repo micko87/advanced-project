@@ -1,11 +1,12 @@
-## basic-auto-project
+###### Hotel Reservation App
 
-### April 20, 2016
+### April 30, 2016
 
-For automation projects
+For automation project fo adactin.com
 
-* git 
+* Git 
 * Java 7
 * Maven
+* TestNG
 
 [Mikias Ayalew](http://sqasolution.com)
