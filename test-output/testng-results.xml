@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6438" started-at="2016-04-30T22:18:50Z" finished-at="2016-04-30T22:18:57Z">
+  <suite name="Default suite" duration-ms="6561" started-at="2016-05-03T01:50:48Z" finished-at="2016-05-03T01:50:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6438" started-at="2016-04-30T22:18:50Z" finished-at="2016-04-30T22:18:57Z">
+    <test name="Default test" duration-ms="6561" started-at="2016-05-03T01:50:48Z" finished-at="2016-05-03T01:50:55Z">
       <class name="com.sqa.MA.UserLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sqa.MA.UserLoginTest@41466e67]" name="setUp" is-config="true" duration-ms="2878" started-at="2016-04-30T15:18:50Z" finished-at="2016-04-30T15:18:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sqa.MA.UserLoginTest@63d446f3]" name="setUp" is-config="true" duration-ms="2894" started-at="2016-05-02T18:50:48Z" finished-at="2016-05-02T18:50:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="HotelSearchTest()[pri:0, instance:com.sqa.MA.UserLoginTest@41466e67]" name="HotelSearchTest" duration-ms="3542" started-at="2016-04-30T15:18:53Z" finished-at="2016-04-30T15:18:57Z">
+        <test-method status="PASS" signature="HotelSearchTest()[pri:0, instance:com.sqa.MA.UserLoginTest@63d446f3]" name="HotelSearchTest" duration-ms="3649" started-at="2016-05-02T18:50:51Z" finished-at="2016-05-02T18:50:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelSearchTest -->

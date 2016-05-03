@@ -34,7 +34,12 @@ public class UserLoginTest {
 		this.driver.findElement(By.xpath("//input[@id='datepick_in']")).sendKeys("06/05/2016");
 
 		this.driver.findElement(By.xpath("//input[@id='datepick_out']")).clear();
-		this.driver.findElement(By.xpath("//input[@id='datepick_out']")).sendKeys("11/05/2016");
+		this.driver.findElement(By.xpath("//input[@id='datepick_out']")).sendKeys("04/05/2016");
+
+		Select select4 = new Select(this.driver.findElement(By.id("adult_room")));
+		select4.selectByVisibleText("2 - Two");
+
+		this.driver.findElement(By.id("Submit")).click();
 
 	}
 
