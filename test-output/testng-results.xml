@@ -1,21 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6561" started-at="2016-05-03T01:50:48Z" finished-at="2016-05-03T01:50:55Z">
+  <suite name="Default suite" duration-ms="15751" started-at="2016-05-05T05:39:55Z" finished-at="2016-05-05T05:40:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6561" started-at="2016-05-03T01:50:48Z" finished-at="2016-05-03T01:50:55Z">
-      <class name="com.sqa.MA.UserLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sqa.MA.UserLoginTest@63d446f3]" name="setUp" is-config="true" duration-ms="2894" started-at="2016-05-02T18:50:48Z" finished-at="2016-05-02T18:50:51Z">
+    <test name="Default test" duration-ms="15751" started-at="2016-05-05T05:39:55Z" finished-at="2016-05-05T05:40:11Z">
+      <class name="com.sqa.MA.adactin.TC102">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sqa.MA.adactin.TC102@6564e67f]" name="setUp" is-config="true" duration-ms="7286" started-at="2016-05-04T22:39:55Z" finished-at="2016-05-04T22:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="HotelSearchTest()[pri:0, instance:com.sqa.MA.UserLoginTest@63d446f3]" name="HotelSearchTest" duration-ms="3649" started-at="2016-05-02T18:50:51Z" finished-at="2016-05-02T18:50:55Z">
+        <test-method status="PASS" signature="testCheckInOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.sqa.MA.adactin.TC102@6564e67f]" name="testCheckInOut" duration-ms="2927" started-at="2016-05-04T22:40:02Z" data-provider="tcl102data" finished-at="2016-05-04T22:40:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mikias87]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gunittpain87]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[02/06/2018]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HotelSearchTest -->
-      </class> <!-- com.sqa.MA.UserLoginTest -->
+        </test-method> <!-- testCheckInOut -->
+        <test-method status="PASS" signature="testCheckInOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.sqa.MA.adactin.TC102@6564e67f]" name="testCheckInOut" duration-ms="3389" started-at="2016-05-04T22:40:05Z" data-provider="tcl102data" finished-at="2016-05-04T22:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mikias87]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gunittpain87]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[08/06/2016]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckInOut -->
+        <test-method status="PASS" signature="testCheckInOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.sqa.MA.adactin.TC102@6564e67f]" name="testCheckInOut" duration-ms="2116" started-at="2016-05-04T22:40:09Z" data-provider="tcl102data" finished-at="2016-05-04T22:40:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mikias87]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gunittpain87]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/06/2014]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckInOut -->
+      </class> <!-- com.sqa.MA.adactin.TC102 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

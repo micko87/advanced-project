@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sqa.MA.UserLoginTest">
+      <class name="com.sqa.MA.adactin.TC102">
         <methods>
-          <include name="HotelSearchTest"/>
           <include name="setUp"/>
+          <include name="testCheckInOut" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- com.sqa.MA.UserLoginTest -->
+      </class> <!-- com.sqa.MA.adactin.TC102 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

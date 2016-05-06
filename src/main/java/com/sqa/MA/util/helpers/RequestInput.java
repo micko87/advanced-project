@@ -12,6 +12,8 @@ package com.sqa.MA.util.helpers;
 
 import java.util.Scanner;
 
+import com.sqa.MA.util.helpers.exceptions.*;
+
 /**
  * RequestInput //ADDD (description of class)
  * <p>

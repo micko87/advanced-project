@@ -8,7 +8,7 @@
  *   
  */
 
-package com.sqa.MA.util.helpers;
+package com.sqa.MA.util.helpers.exceptions;
 
 /**
  * InvalidAcceptableNumberException //ADDD (description of class)

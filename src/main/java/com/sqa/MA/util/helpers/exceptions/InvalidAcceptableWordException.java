@@ -8,7 +8,7 @@
  *   
  */
 
-package com.sqa.MA.util.helpers;
+package com.sqa.MA.util.helpers.exceptions;
 
 /**
  * InvalidAcceptableWordException //ADDD (description of class)
