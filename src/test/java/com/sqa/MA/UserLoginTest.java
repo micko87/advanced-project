@@ -39,7 +39,7 @@ public class UserLoginTest {
 		Thread.sleep(1000);
 
 		this.driver.findElement(By.xpath("//input[@id='datepick_out']")).clear();
-		this.driver.findElement(By.xpath("//input[@id='datepick_out']")).sendKeys("10/05/2016");
+		this.driver.findElement(By.xpath("//input[@id='datepick_out']")).sendKeys("09/05/2016");
 		Thread.sleep(1000);
 
 		Select select4 = new Select(this.driver.findElement(By.id("adult_room")));

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adactin Suite">
+	<test verbose="2" name="TC 103">
+		<classes>
+			<class name="com.sqa.MA.adactin.TC101"/>
+			<class name="com.sqa.MA.adactin.TC102"/>
+			<class name="com.sqa.MA.adactin.TC103"/>
+		</classes>
+	</test> <!-- Defualt test -->
+</suite> <!-- Defualt suite -->
