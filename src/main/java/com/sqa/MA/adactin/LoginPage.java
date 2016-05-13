@@ -8,7 +8,7 @@
  *
  */
 
-package com.sqa.MA.adactin;
+package com.sqa.ma.adactin;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;

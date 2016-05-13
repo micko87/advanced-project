@@ -1,4 +1,4 @@
-package com.sqa.MA;
+package com.sqa.ma;
 
 import java.util.concurrent.*;
 

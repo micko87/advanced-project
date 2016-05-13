@@ -8,10 +8,12 @@
  *
  */
 
-package com.sqa.MA.adactin;
+package com.sqa.ma.adactin;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.firefox.*;
+import org.openqa.selenium.safari.*;
 import org.testng.*;
 import org.testng.annotations.*;
 
@@ -30,22 +32,37 @@ import org.testng.annotations.*;
 public class TC101 {
 
 	private static String baseURL = "http://adactin.com/HotelAppBuild2";
+
 	private static WebDriver driver;
 
-	@BeforeClass
-	public void setUp() {
-		this.driver = new FirefoxDriver();
+	@BeforeClass(groups = { "chrome" })
+	public void setUpChrome() {
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+		this.driver = new ChromeDriver();
 		this.driver.get(this.baseURL);
 	}
 
-	@Test
-	public void testLogin() {
-		// LoginPage loginPage = new LoginPage(this.driver);
-		// loginPage.enterUsername("mikias87")getClass().enterPassword("gunittpain87").login();
-		// Assert.assertTrue(loginPage.hasWelcomeMsg());
-
-		Assert.assertTrue(new LoginPage(this.driver).enterUsername("madinochkab").enterPassword("madina261184").login()
-				.hasWelcomeMsg());
+	@BeforeClass(groups = { "firefox" })
+	public void setUpFirefox() {
+		this.driver = new FirefoxDriver();
+		this.driver.get(this.baseURL);
+		/*
+		 * Properties props = System.getProperties(); for (Object prop :
+		 * props.keySet()) { System.out.println(prop + " := " +
+		 * props.getProperty((String) prop)); }
+		 */
 	}
 
+	@BeforeClass(groups = { "safari" })
+	public void setUpSafari() {
+		System.setProperty("webdriver.safari.driver", "drivers/safari");
+		this.driver = new SafariDriver();
+		this.driver.get(this.baseURL);
+	}
+
+	@Test(groups = { "firefox", "chrome", "safari" })
+	public void testLogin() {
+		Assert.assertTrue(new LoginPage(this.driver).enterUsername("mikias87").enterPassword("gunittpain87").login()
+				.hasWelcomeMsg());
+	}
 }

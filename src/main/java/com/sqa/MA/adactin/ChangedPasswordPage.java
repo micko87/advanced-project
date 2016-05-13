@@ -8,9 +8,9 @@
  *
  */
 
-package com.sqa.MA.adactin;
+package com.sqa.ma.adactin;
 
-import org.testng.log4testng.*;
+import org.apache.log4j.*;
 
 /**
  * ChangedPasswordPage //ADDD (description of class)

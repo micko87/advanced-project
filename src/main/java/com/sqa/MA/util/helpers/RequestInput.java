@@ -8,11 +8,11 @@
  *
  */
 
-package com.sqa.MA.util.helpers;
+package com.sqa.ma.util.helpers;
 
-import java.util.Scanner;
+import java.util.*;
 
-import com.sqa.MA.util.helpers.exceptions.*;
+import com.sqa.ma.util.helpers.exceptions.*;
 
 /**
  * RequestInput //ADDD (description of class)

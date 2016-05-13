@@ -8,13 +8,11 @@
  *
  */
 
-package com.sqa.MA.util.helpers;
+package com.sqa.ma.util.helpers;
 
-import java.util.List;
+import java.util.*;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
 /**
  * Locator //ADDD (description of class)

@@ -1,10 +1,10 @@
-package com.sqa.MA.adactin;
+package com.sqa.ma.adactin;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.*;
 import org.testng.annotations.*;
 
-import com.sqa.MA.util.helpers.*;
+import com.sqa.ma.util.helpers.*;
 
 public class TC103 {
 

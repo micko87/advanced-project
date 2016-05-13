@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adactin-suite">
+	<test verbose="2" name="Safari Adactin Tests">
+		<groups>
+			<run>
+				<include name="safari"></include>
+				
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sqa.ma.adactin.TC101" />
+		</classes>
+	</test> <!-- Defualt test -->
+</suite> <!-- Defualt suite -->

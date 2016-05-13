@@ -8,7 +8,7 @@
  *
  */
 
-package com.sqa.MA.util.helpers;
+package com.sqa.ma.util.helpers;
 
 import java.io.*;
 import java.util.*;

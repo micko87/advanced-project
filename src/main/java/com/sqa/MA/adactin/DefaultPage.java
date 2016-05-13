@@ -8,17 +8,17 @@
  *
  */
 
-package com.sqa.MA.adactin;
+package com.sqa.ma.adactin;
 
 import java.text.*;
 import java.util.*;
 
+import org.apache.log4j.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.support.*;
-import org.testng.log4testng.*;
 
-import com.sqa.MA.util.helpers.exceptions.*;
+import com.sqa.ma.util.helpers.exceptions.*;
 
 /**
  * DefaultPage //ADDD (description of class)

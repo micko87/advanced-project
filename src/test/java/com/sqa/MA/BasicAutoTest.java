@@ -1,4 +1,4 @@
-package com.sqa.MA;
+package com.sqa.ma;
 
 import java.util.*;
 import java.util.NoSuchElementException;
@@ -7,7 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.*;
 import org.testng.annotations.*;
 
-import com.sqa.MA.util.helpers.*;
+import com.sqa.ma.util.helpers.*;
 
 public class BasicAutoTest {
 

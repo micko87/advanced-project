@@ -8,7 +8,7 @@
  *
  */
 
-package com.sqa.MA.adactin;
+package com.sqa.ma.adactin;
 
 import java.text.*;
 

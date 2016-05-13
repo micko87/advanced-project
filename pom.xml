@@ -65,7 +65,7 @@
 						<password>${password}</password>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
-						<suiteXmlFile>adactin-suite.xml</suiteXmlFile>
+						<suiteXmlFile>firefox-adactin-suite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 				</configuration>

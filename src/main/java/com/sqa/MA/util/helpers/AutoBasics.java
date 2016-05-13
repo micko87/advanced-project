@@ -8,7 +8,7 @@
  *
  */
 
-package com.sqa.MA.util.helpers;
+package com.sqa.ma.util.helpers;
 
 import java.io.*;
 import java.util.*;
@@ -17,7 +17,7 @@ import org.apache.commons.io.*;
 import org.apache.log4j.*;
 import org.openqa.selenium.*;
 
-import com.sqa.MA.util.helpers.exceptions.*;
+import com.sqa.ma.util.helpers.exceptions.*;
 
 /**
  * AutoBasics //ADDD (description of class)
