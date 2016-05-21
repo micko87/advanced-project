@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Adactin-suite]">
-  <test name="Safari Adactin Tests(failed)">
-    <groups>
-      <run>
-        <include name="safari"/>
-      </run>
-    </groups>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.sqa.ma.adactin.TC101">
+      <class name="com.sqa.MA.UserLoginTest">
         <methods>
-          <include name="testLogin"/>
-          <include name="setUpSafari"/>
+          <include name="HotelSearchTest"/>
+          <include name="SelectHotelOption"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.sqa.ma.adactin.TC101 -->
+      </class> <!-- com.sqa.MA.UserLoginTest -->
     </classes>
-  </test> <!-- Safari Adactin Tests(failed) -->
-</suite> <!-- Failed suite [Adactin-suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

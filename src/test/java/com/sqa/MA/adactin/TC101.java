@@ -8,7 +8,7 @@
  *
  */
 
-package com.sqa.ma.adactin;
+package com.sqa.MA.adactin;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
@@ -16,6 +16,8 @@ import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.safari.*;
 import org.testng.*;
 import org.testng.annotations.*;
+
+import com.sqa.ma.adactin.*;
 
 /**
  * TC105 //ADDD (description of class)

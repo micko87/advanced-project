@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sqa.ma.adactin.TC101">
+      <class name="com.sqa.MA.UserLoginTest">
         <methods>
-          <include name="testLogin"/>
-          <include name="setUpChrome"/>
+          <include name="HotelSearchTest"/>
+          <include name="SelectHotelOption"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.sqa.ma.adactin.TC101 -->
+      </class> <!-- com.sqa.MA.UserLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

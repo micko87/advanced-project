@@ -1,4 +1,4 @@
-package com.sqa.ma.adactin;
+package com.sqa.MA.adactin;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.*;

@@ -1,4 +1,4 @@
-package com.sqa.ma;
+package com.sqa.MA;
 
 import java.util.*;
 import java.util.NoSuchElementException;
